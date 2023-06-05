@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {Course} from '../model/course';
+import {Course} from '../models/course';
 
 @Component({
   selector: 'course-card',
@@ -8,13 +8,17 @@ import {Course} from '../model/course';
 })
 export class CourseCardComponent {
   @Input() course: Course;
-  @Output() courseSelected = new EventEmitter<Course>();
+
+  @Input() cardIndex: number;
+
+  //The name of the DOM property to which the output property is bound. Optional.
+  @Output('courseSelected') courseEventEmitter = new EventEmitter<Course>();
 
   constructor() {
   }
 
   public onCourseViewed() {
     alert('Yes the button is working');
-    this.courseSelected.emit(this.course);
+    this.courseEventEmitter.emit(this.course);
   }
 }
