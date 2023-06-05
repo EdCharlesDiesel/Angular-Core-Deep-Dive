@@ -1,4 +1,22 @@
+.top-menu {
+  background: #1976d2;
+  padding: 2px 15px;
+}
+
+.logo {
+  max-height: 55px;
+  max-width: 55px;
+}
 
 
+.products {
+  max-width: 400px;
+  margin: 50px auto;
+}
 
+input.demo{
+  border:2px solid black;
+  width: 300px;
+  font-size: 25px;
+}
 
