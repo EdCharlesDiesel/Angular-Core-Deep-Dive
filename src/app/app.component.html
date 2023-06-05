@@ -1,15 +1,27 @@
 <div class="top-menu">
 
-  <img class="logo" alt="logo"
-       [src]="coreCourses.iconUrl">
+  <img class="logo" alt="logo" *ngIf="isImageVisible()"
+       [src]="courses.iconUrl">
 </div>
 
-<div class="container">
-  <div class="product-card">
-    <product-card (productSelected)="onProductSelected($event)" [product]="rxjsCourses"></product-card>
-    <product-card [product]="coreCourses"></product-card>
-    <product-card [product]="ngRxCourses"></product-card>
+<div class="courses">
+  <div class="course-card">
+    <course-card *ngFor="let course of courses;
+                          index as i;"
+                 (courseSelected)="onCourseSelected($event)"
+                 [course]="course" [cardIndex]="i + 1"></course-card>
+    <!--    <course-card *ngFor="let course of courses;-->
+    <!--                          index as i;-->
+    <!--                          first as isFirst;-->
+    <!--                          last as isLast;-->
+    <!--                          odd as isOdd;-->
+    <!--                          even as isEven"-->
+    <!--                 [class.is-first]="isFirst"-->
+    <!--                 [class.is-last]="isLast"-->
+    <!--                 [class.is-odd]="isOdd"-->
+    <!--                 [class.is-even]="isEven"-->
+    <!--                 (courseSelected)="onCourseSelected($event)" [course]="course" [cardIndex]="i + 1"></course-card>-->
+    <!--    <course-card (courseSelected)="onCourseSelected($event)" [course]="course"></course-card>-->
+    <!--    <course-card (courseSelected)="onCourseSelected($event)" [course]="ngRxCourses"></course-card>-->
   </div>
 </div>
-
-

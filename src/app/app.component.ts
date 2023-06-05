@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
-import {Products} from '../db-data';
-import {Product} from './models/product';
+import {COURSES} from '../db-data';
+import {Course} from './models/course';
+
 
 @Component({
   selector: 'app-root',
@@ -8,12 +9,16 @@ import {Product} from './models/product';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  courses = COURSES;
+  // public coreCourses = COURSES[0];
+  // public rxjsCourses = COURSES[1];
+  // public ngRxCourses = COURSES[2];
 
-  public coreCourses = Products[0];
-  public rxjsCourses = Products[1];
-  public ngRxCourses = Products[2];
+  public onCourseSelected(course: Course) {
+    console.log('On Course selected event triggered from app',course);
+  }
 
-  public onProductSelected(product: Product) {
-    console.log('On Product selected event triggered from app',product);
+  isImageVisible() {
+    // return this.courses && this.courses.filter(x=>x== c)
   }
 }
