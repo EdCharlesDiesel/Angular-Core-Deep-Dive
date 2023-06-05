@@ -1,5 +1,5 @@
 
-##  Angular Core Deep Dive (Video Course)
+##  Angular Core Deep Dive (Video Product)
 
 This repository contains the code of the [Angular Core Deep Dive](https://angular-university.io/course/angular-course).
 
@@ -74,26 +74,26 @@ It's also possible to download a ZIP file for a given branch,  using the branch 
 
 # Other Courses
 
-# RxJs In Practice Course
+# RxJs In Practice Product
 
-If you are looking for the [RxJs In Practice Course](https://angular-university.io/course/rxjs-course), the repo with the full code can be found here:
+If you are looking for the [RxJs In Practice Product](https://angular-university.io/course/rxjs-course), the repo with the full code can be found here:
 
-![RxJs In Practice Course](https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png)
-
-
-# NgRx In Depth Course
-
-If you are looking for the [NgRx In Depth Course](https://angular-university.io/course/angular-ngrx-course), the repo with the full code can be found here:
-
-![NgRx In Depth Course](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-ngrx-course.png)
+![RxJs In Practice Product](https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png)
 
 
+# NgRx In Depth Product
 
-# Angular PWA Course
+If you are looking for the [NgRx In Depth Product](https://angular-university.io/course/angular-ngrx-course), the repo with the full code can be found here:
 
-If you are looking for the [Angular PWA Course](https://angular-university.io/course/angular-pwa-course), the repo with the full code can be found here:
+![NgRx In Depth Product](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-ngrx-course.png)
 
-![Angular PWA Course - Build the future of the Web Today](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png)
+
+
+# Angular PWA Product
+
+If you are looking for the [Angular PWA Product](https://angular-university.io/course/angular-pwa-course), the repo with the full code can be found here:
+
+![Angular PWA Product - Build the future of the Web Today](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png)
 
 # Angular Security Masterclass
 
@@ -103,40 +103,40 @@ If you are looking for the [Angular Security Masterclass](https://angular-univer
 
 ![Angular Security Masterclass](https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png)
 
-# Angular Advanced Library Laboratory Course
+# Angular Advanced Library Laboratory Product
 
-If you are looking for the Angular Advanced Course, the repo with the full code can be found here:
+If you are looking for the Angular Advanced Product, the repo with the full code can be found here:
 
-[Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-university.io/course/angular-advanced-course).
+[Angular Advanced Library Laboratory Product: Build Your Own Library](https://angular-university.io/course/angular-advanced-course).
 
-![Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png)
-
-
-## RxJs and Reactive Patterns Angular Architecture Course
-
-If you are looking for the RxJs and Reactive Patterns Angular Architecture Course code, the repo with the full code can be found here:
-
-[RxJs and Reactive Patterns Angular Architecture Course](https://angular-university.io/course/reactive-angular-architecture-course)
-
-![RxJs and Reactive Patterns Angular Architecture Course](https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png)
+![Angular Advanced Library Laboratory Product: Build Your Own Library](https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png)
 
 
+## RxJs and Reactive Patterns Angular Architecture Product
 
-## Angular Ngrx Reactive Extensions Architecture Course
+If you are looking for the RxJs and Reactive Patterns Angular Architecture Product code, the repo with the full code can be found here:
 
-If you are looking for the Angular Ngrx Reactive Extensions Architecture Course code, the repo with the full code can be found here:
+[RxJs and Reactive Patterns Angular Architecture Product](https://angular-university.io/course/reactive-angular-architecture-course)
 
-[Angular Ngrx Reactive Extensions Architecture Course](https://angular-university.io/course/angular2-ngrx)
+![RxJs and Reactive Patterns Angular Architecture Product](https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png)
+
+
+
+## Angular Ngrx Reactive Extensions Architecture Product
+
+If you are looking for the Angular Ngrx Reactive Extensions Architecture Product code, the repo with the full code can be found here:
+
+[Angular Ngrx Reactive Extensions Architecture Product](https://angular-university.io/course/angular2-ngrx)
 
 [Github repo for this course](https://github.com/angular-university/ngrx-course)
 
-![Angular Ngrx Course](https://angular-academy.s3.amazonaws.com/thumbnails/ngrx-angular.png)
+![Angular Ngrx Product](https://angular-academy.s3.amazonaws.com/thumbnails/ngrx-angular.png)
 
 
 
-## Angular 2 and Firebase - Build a Web Application Course
+## Angular 2 and Firebase - Build a Web Application Product
 
-If you are looking for the Angular 2 and Firebase - Build a Web Application Course code, the repo with the full code can be found here:
+If you are looking for the Angular 2 and Firebase - Build a Web Application Product code, the repo with the full code can be found here:
 
 [Angular 2 and Firebase - Build a Web Application](https://angular-university.io/course/build-an-application-with-angular2)
 
@@ -145,13 +145,13 @@ If you are looking for the Angular 2 and Firebase - Build a Web Application Cour
 ![Angular firebase course](https://angular-academy.s3.amazonaws.com/thumbnails/angular_app-firebase-small.jpg)
 
 
-## Complete Typescript 2 Course - Build A REST API
+## Complete Typescript 2 Product - Build A REST API
 
-If you are looking for the Complete Typescript 2 Course - Build a REST API, the repo with the full code can be found here:
+If you are looking for the Complete Typescript 2 Product - Build a REST API, the repo with the full code can be found here:
 
 [https://angular-university.io/course/typescript-2-tutorial](https://github.com/angular-university/complete-typescript-course)
 
 [Github repo for this course](https://github.com/angular-university/complete-typescript-course)
 
-![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
+![Complete Typescript Product](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
 

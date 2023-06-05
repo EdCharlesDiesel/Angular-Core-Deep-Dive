@@ -1,0 +1,32 @@
+/*.top-menu {*/
+/*  background: #1976d2;*/
+/*  padding: 2px 15px;*/
+/*}*/
+
+/*.logo {*/
+/*  max-height: 10px;*/
+/*  max-width: 10px;*/
+/*}*/
+
+
+/*.products {*/
+/*  max-width: 400px;*/
+/*  margin: 50px auto;*/
+/*}*/
+
+/*input.demo{*/
+/*  border:2px solid black;*/
+/*  width: 300px;*/
+/*  length: 300px;*/
+/*  font-size: 25px;*/
+/*}*/
+
+button {
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  background: #1a7ce7;
+  color: white;
+  border-radius: 4px;
+}
+
