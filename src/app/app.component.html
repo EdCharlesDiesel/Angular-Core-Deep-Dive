@@ -1,14 +1,15 @@
 <div class="top-menu">
 
-   <img class="logo" alt="logo"
-         [src]="coreCourses.iconUrl">
-
+  <img class="logo" alt="logo"
+       [src]="coreCourses.iconUrl">
 </div>
 
 <div class="container">
-<product-card [product]="rxjsCourses"></product-card>
-  <product-card [product]="coreCourses"></product-card>
-  <product-card [product]="ngRxCourses"></product-card>
+  <div class="product-card">
+    <product-card (productSelected)="onProductSelected($event)" [product]="rxjsCourses"></product-card>
+    <product-card [product]="coreCourses"></product-card>
+    <product-card [product]="ngRxCourses"></product-card>
+  </div>
 </div>
 
 
