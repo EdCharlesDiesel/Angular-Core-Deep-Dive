@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
+import {Course} from '../model/course';
 
 @Component({
   selector: 'course-card',
@@ -6,14 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./course-card.component.css']
 })
 export class CourseCardComponent {
-  title: any='Angular Core Deep Dive';
+  @Input() course: Course;
+  @Output() courseSelected = new EventEmitter<Course>();
 
-
-  onLogoClick() {
-
+  constructor() {
   }
 
-  onKeyup(value: string) {
-
+  public onCourseViewed() {
+    alert('Yes the button is working');
+    this.courseSelected.emit(this.course);
   }
 }
