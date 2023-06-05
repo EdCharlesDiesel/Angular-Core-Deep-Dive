@@ -17,4 +17,8 @@ export class AppComponent {
   public onCourseSelected(course: Course) {
     console.log('On Course selected event triggered from app',course);
   }
+
+  isImageVisible() {
+    // return this.courses && this.courses.filter(x=>x== c)
+  }
 }

@@ -21,4 +21,14 @@ export class CourseCardComponent {
     alert('Yes the button is working');
     this.courseEventEmitter.emit(this.course);
   }
+
+  public isImageVisible() {
+    return this.course && this.course.iconUrl;
+  }
+
+  public cardClasses() {
+    if (this.course.category == 'BEGINNER') {
+      return 'beginner';
+    }
+  }
 }
