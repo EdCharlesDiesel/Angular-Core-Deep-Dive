@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {COURSES} from '../db-data';
+import {Products} from '../db-data';
 
 @Component({
   selector: 'app-root',
@@ -7,13 +7,8 @@ import {COURSES} from '../db-data';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular Core Deep Dive';
 
-  onLogoClick() {
-    alert('Hello Khotso');
-  }
-
-  onKeyup(newValue: string) {
-    this.title = newValue;
-  }
+  coreCourses = Products[0];
+  rxjsCourses = Products[1];
+  ngRxCourses = Products[2];
 }

@@ -1,15 +1,14 @@
 <div class="top-menu">
 
-<!--    <img class="logo" alt="logo"-->
-<!--         src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">-->
+   <img class="logo" alt="logo"
+         [src]="coreCourses.iconUrl">
 
 </div>
 
 <div class="container">
-
-<course-card></course-card>
-  <course-card></course-card>
-  <course-card></course-card>
+<product-card [product]="rxjsCourses"></product-card>
+  <product-card [product]="coreCourses"></product-card>
+  <product-card [product]="ngRxCourses"></product-card>
 </div>
 
 
