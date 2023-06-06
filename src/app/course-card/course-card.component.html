@@ -1,6 +1,7 @@
-<div class="course-card beginner" *ngIf="course" [ngClass]="cardClasses">
+<div class="course-card beginner" *ngIf="course"
+[ngClass]="cardClasses()">
 <!--  <div class="course-card">-->
-    <div class="course-title">
+    <div class="course-title" [ngStyle]="cardStyles()">
       {{cardIndex + ' ' + course?.description}}
     </div>
 

@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {Product} from '../models/product';
+import {Course} from '../models/course';
 
 @Component({
   selector: 'product-card',
@@ -7,8 +7,8 @@ import {Product} from '../models/product';
   styleUrls: ['./product-card.component.css']
 })
 export class ProductCardComponent {
-  @Input() product: Product;
-  @Output() productSelected = new EventEmitter<Product>();
+  @Input() product: Course;
+  @Output() productSelected = new EventEmitter<Course>();
   constructor() {}
   public onProductViewed() {
     alert('Yes the button is working');
