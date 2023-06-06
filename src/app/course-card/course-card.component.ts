@@ -34,7 +34,7 @@ export class CourseCardComponent {
 
   public cardStyles() {
       return {
-        'background-image': 'url(' + this.course.iconUrl + ')'
+         'background-image': 'url(' + this.course.iconUrl + ')'
       };
   }
 }
