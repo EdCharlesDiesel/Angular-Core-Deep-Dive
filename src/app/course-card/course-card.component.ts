@@ -31,4 +31,10 @@ export class CourseCardComponent {
       return 'beginner';
     }
   }
+
+  public cardStyles() {
+      return {
+        'background-image': 'url(' + this.course.iconUrl + ')'
+      };
+  }
 }
