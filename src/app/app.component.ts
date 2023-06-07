@@ -1,4 +1,4 @@
-import {Component, ElementRef, ViewChild} from '@angular/core';
+import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
 import {COURSES} from '../db-data';
 import {Course} from './models/course';
 import {CourseCardComponent} from './course-card/course-card.component';
@@ -9,10 +9,15 @@ import {CourseCardComponent} from './course-card/course-card.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit{
+  constructor() {
+    console.log(this.card1);
+  }
   @ViewChild('cardRef1', {read: ElementRef}) card1: CourseCardComponent;
   @ViewChild('cardRef2') card2: CourseCardComponent;
   @ViewChild('container') containerDiv: ElementRef;
+
+  @ViewChild('courseImage') courseImage: ElementRef;
 
   courses = COURSES;
   startDate = new Date(2000, 0, 1);
@@ -29,10 +34,16 @@ export class AppComponent {
     // console.log('On Course selected event triggered from app',course);
     console.log(this.card1);
     // console.log(this.card2);
-   // console.log('containerDiv', this.containerDiv);
+    // console.log('containerDiv', this.containerDiv);
   }
 
   isImageVisible() {
     // return this.courses && this.courses.filter(x=>x== c)
+  }
+
+  ngAfterViewInit(): void {
+    console.log("courseImage",this.courseImage);
+    //console.log(this.card1);
+   // this.courses[1].description = 'Testin'
   }
 }
