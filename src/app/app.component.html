@@ -24,15 +24,12 @@
   <!--  </div>-->
 </div>
 
-<div class="courses">
-  <div class="course-card">
-    <course-card
-      (courseSelected)="onCourseSelected($event)"
-      [course]="courses[0]"></course-card>
-    <div class="course-card">
-      <course-card
-        (courseSelected)="onCourseSelected($event)"
-        [course]="courses[1]"></course-card>
+<div class="courses" #container>
+<!--  <div class="course-card">-->
+    <course-card (courseSelected)="onCourseSelected($event)" [course]="courses[0]" #cardRef1></course-card>
+    <course-card (courseSelected)="onCourseSelected($event)" [course]="courses[1]" #cardRef2></course-card>
+
+
     <!--    <course-card *ngFor="let course of courses | slice:0:3 ;-->
     <!--                          index as i;"-->
     <!--                 (courseSelected)="onCourseSelected($event)"-->
@@ -50,5 +47,5 @@
     <!--                 (courseSelected)="onCourseSelected($event)" [course]="course" [cardIndex]="i + 1"></course-card>-->
     <!--    <course-card (courseSelected)="onCourseSelected($event)" [course]="course"></course-card>-->
     <!--    <course-card (courseSelected)="onCourseSelected($event)" [course]="ngRxCourses"></course-card>-->
-  </div>
+<!--  </div>-->
 </div>
