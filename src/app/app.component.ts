@@ -1,6 +1,7 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 import {COURSES} from '../db-data';
 import {Course} from './models/course';
+import {CourseCardComponent} from './course-card/course-card.component';
 
 
 @Component({
@@ -13,6 +14,8 @@ export class AppComponent {
   startDate = new Date(2000,0,1);
   title = COURSES[1].description;
   price= 3.66;
+  @ViewChild(CourseCardComponent)
+  card:CourseCardComponent;
 
   course = COURSES[1];
   // public coreCourses = COURSES[0];
@@ -20,7 +23,8 @@ export class AppComponent {
   // public ngRxCourses = COURSES[2];
 
   public onCourseSelected(course: Course) {
-    console.log('On Course selected event triggered from app',course);
+    //console.log('On Course selected event triggered from app',course);
+    console.log(this.card);
   }
 
   isImageVisible() {

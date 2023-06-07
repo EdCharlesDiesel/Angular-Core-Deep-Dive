@@ -18,7 +18,7 @@ export class CourseCardComponent {
   }
 
   public onCourseViewed() {
-    alert('Yes the button is working');
+    console.log('card component - button clicked.....')
     this.courseEventEmitter.emit(this.course);
   }
 
